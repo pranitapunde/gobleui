@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    padding-inline: 50px;
+}
+nav {
+    width: 100%;
+    height: 60px;
+    border-bottom:  1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+.logo img{
+    width: 100px;
+}
+.link ul {
+    width: 500px;
+    height: 80px;  
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;   
+    list-style: none;  
+} 
+.link a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.link  a:hover{
+    color: blue;
+}
+.search{
+    width: 200px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.search a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.search a i{
+    font-size: 14px;
+    color: black;
+}
+.search button{
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(20, 20, 20);
+    border: none;
+   
+}
+.menu-bar{
+    display: none;
+}
+/* hero */
+.hero{
+    width: 100%;
+    height: 160px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.left{
+    width: 70%;
+    height: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center; 
+    justify-content:center;
+    flex-direction: column;
+}
+
+.point{
+    width:500px;
+    height: 30px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: end;
+    text-align: end;
+    justify-content:end;
+}
+.point span{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.point i{
+    font-size: 8px;
+    
+}
+
+.head h1{
+    font-size: 80px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.right{
+    width: 30%;
+    height: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: start;
+    text-align: start;
+    justify-content:space-around;
+    flex-direction: column;
+    padding-block: 30px;
+     
+}
+.right p{
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+.ab{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.right span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.right button{
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+}
+.right a i{
+    color: black;
+}
+.Globe{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.left-l{
+    width: 70%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+.About{
+    width: 35%;
+    height: 500px;
+    /* border: 1px solid black; */
+}
+.sec{
+    width: 300px;
+    height: 180px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.sec p{
+    font-size: 18px;
+}
+.out {
+    width: 300px;
+    height: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.out p{
+    font-size: 20px;
+}
+
+button{
+    width: 100px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 50px; 
+    margin-top: 4px;
+}
+.mg{
+    width: 300px;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    text-align: start;
+    align-items: center;
+    justify-content: start;  
+}
+.mg img{
+    width: 100px;
+
+}
+.mg p{
+    font-size: 15px;
+    border-left: 3px solid gray;
+    padding-left: 10px;
+}
+.tour{
+    width: 65%;
+    height: 500px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tour img{
+    width: 600px;
+    height: 450px;
+   
+}
+.right-r{
+    width: 30%;
+    height: 500px;
+    /* border: 1px solid black; */
+}
+.photo{
+    width: 405px;
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.photo img{
+    width: 350px;
+}
+.unlock{
+    width:400px ;
+    height: 100px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.unlock h1{
+    font-size: 40px;
+}
+.unlock p{
+    font-size: 20px;
+}
+.icon{
+    width: 400px;
+    height: 90px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 40px;
+    
+}
+.icon p{
+    font-size: 18px;
+    
+}
+ .box {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin: 5px;
+}
+ .icon span{
+ display: flex;
+
+ 
+
+
+}
+/* responsive-css */
+@media (max-width: 768px) {
+    .main-container{
+        width: 100%;
+        height: auto;
+    }
+    
+    nav{
+        width: 100%;
+        height: auto;   
+    }
+    .logo img{
+        width: 100px;
+    }
+    .link ul{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    
+    .menu-bar{
+        display: inline;
+    }
+    .menu-bar{
+        font-size: 20px;
+        padding-right: 10px;
+      
+    }
+    .hero{
+        width: 100%;
+        height: auto;
+    }
+    .left{
+        width: 100%;
+        height: auto;
+    }
+    .point{
+        display: none;
+    }
+    .head{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   
+    .head h1{
+        font-size:40px;
+
+    }
+    .right{
+        display: none;
+    }
+
+    .Globe{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .left-l{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    
+    .About{
+        width: 100%;
+        height: auto;
+
+    }
+    .sec{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+        
+
+    }
+    .sec h1 br{
+        display: none;
+    }
+    .sec p br{
+        display: none;
+    }
+    .sec h1{
+        font-size: 35px;
+    }
+    .sec p{
+        font-size: 15px;
+        padding-top: 8px;
+    }
+    .tour{
+        width: 100%;
+        height: auto;
+       
+    }
+    .tour img{
+        width: 100%;
+    }
+    .mg{
+        width: 100%;
+        height: auto;
+        justify-content: center; 
+    }
+    .out{
+        display: none;
+    }
+    .right-r{
+        width: 100%;
+        height: auto;
+        /* display: flex; */
+
+    }
+    .photo{
+        width: 100%;
+        height: auto;
+        
+    }
+    .photo img{
+        width: 100%;
+    }
+    .unlock{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        justify-content:center;
+        padding-block: 20px;
+    }
+    .unlock h1{
+        font-size: 25px;
+        padding-right: 30px;
+    }
+    .unlock p br{
+        display: none;
+    }
+    .unlock p{
+        font-size: 18px;
+    }
+    
+    .icon{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items:center;
+        justify-content:center; 
+    }
+    .icon p{
+        font-size: 16px;
+        
+        
+    }
+    .box{
+        font-size: 12px;
+        
+    }
+    .box{
+        width: 25px;
+        height: 25px;
+    }
+    
+}
+
+
+
+
+
+
+   
+
+
+
+
